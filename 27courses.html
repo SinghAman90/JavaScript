@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <style>
+      body {
+        background-color: rgb(77, 77, 78);
+        display: flex;
+        min-height: 100vh;
+        min-width: 100vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: cursive;
+      }
+      .container {
+        background-color: rgb(235, 195, 64);
+        border: 2px solid rgb(229, 103, 35);
+        border-radius: 10px;
+        /* width: 30rem;
+        height: 20rem; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .heading {
+        margin-bottom: -35px;
+        margin-top: -15px;
+      }
+      .classList {
+        list-style: none;
+        font-size: 15px;
+      }
+      .courses{
+        margin-bottom: 5px;
+      }
+      .courses p {
+        background-color: aliceblue;
+        margin-right: 35px;
+        border-radius: 5px;
+        width: 25rem;
+        text-align: justify;
+      }
+      .price {
+        float: right;
+      }
+      .sortButton {
+        background-color: rgb(118, 202, 118);
+        height: 35px;
+        font-family: cursive;
+        border: solid 1px;
+        border-radius: 4px;
+        text-decoration: none;
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <p>LearnCodeOnline</p>
+      </div>
+      <ul class="classList">
+        <!-- <li class="courses" id="course1">
+          <p>JavaScriptCourse <span class="price">₹499</span> </p>
+        </li> -->
+        
+      </ul>
+      <button class="sortButton">Sort courses</button>
+    </div>
+    <script src="27courses.js"></script>
+  </body>
+</html>

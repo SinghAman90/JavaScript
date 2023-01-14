@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: azure;
+        font-family: cursive;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+      }
+      .container h2 {
+        margin: 15px;
+        font-size: 45px;
+      }
+      button {
+        font-family: cursive;
+        font-size: 15px;
+        background-color: rgb(225, 210, 231);
+        border: solid 2px purple;
+        border-radius: 4px;
+        margin: 5px;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Counter</h2>
+      <h2 class="count">0</h2>
+      <div class="buttons">
+        <button class="btn-1">DECREASE</button>
+        <button class="btn-2">RESET</button>
+        <button class="btn-3">INCREASE</button>
+      </div>
+    </div>
+    <script src="counter.js"></script>
+    </script>
+  </body>
+</html>

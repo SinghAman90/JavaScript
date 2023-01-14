@@ -1,0 +1,594 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  user-select: none;
+  background-color: azure;
+  font-family: "Roboto";
+}
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  /* width: 100vw; */
+  margin: 0;
+  left: 0;
+  right: 0;
+  /* border-radius: 60px; */
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 95vw;
+}
+.heading {
+  font-size: 30px;
+  color: wheat;
+  text-shadow: 1px 1px blue;
+}
+.name {
+  color: #9ed7e3;
+}
+.contacts {
+  margin: 8px;
+}
+.contacts a {
+  text-decoration: none;
+  color: #9ed7e3;
+  padding: 10px;
+  font-size: 20px;
+}
+.handles i {
+  padding: 10px;
+  color: #9ed7e3;
+  font-size: 20px;
+}
+.fa-bars {
+  display: none;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  transition: 500ms;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  font-family: "Roboto";
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #24a7c2;
+}
+.main {
+  font-size: 60px;
+  margin: 20px;
+}
+.middle {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+}
+.container button {
+  text-decoration: none;
+  width: 7rem;
+  height: 2rem;
+  padding: 5px;
+  font-family: "Roboto";
+  background-color: azure;
+  border: solid 2px rgb(160, 241, 241);
+  border-radius: 10px;
+  margin: 40px;
+}
+.container button:hover {
+  cursor: pointer;
+}
+/* for my projects section */
+.projects h1 {
+  font-family: "Great Vibes";
+  font-size: 3rem;
+  color: #24a7c2;
+  /* text-shadow: 1px 1px black; */
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.review-block {
+  /* color: #24a7c2; */
+  background-color: white;
+  width: 30em;
+  height: 25em;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(211, 211, 231);
+}
+.content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 1px 1px azure;
+  margin: 20px;
+}
+.content {
+  font-family: "Roboto", serif;
+}
+.p1 {
+  display: block;
+}
+.p2 {
+  display: none;
+}
+.p3 {
+  display: none;
+}
+.p4 {
+  display: none;
+}
+.p5 {
+  display: none;
+}
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+.role {
+  margin: 0px;
+  font-weight: lighter;
+  color: #9ed7e3;
+  font-size: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttons span {
+  user-select: none;
+  margin: 30px;
+}
+.buttons button {
+  text-align: center;
+  display: block;
+  background-color: azure;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 7px;
+}
+.buttons button:hover {
+  cursor: pointer;
+}
+.buttons span:hover {
+  cursor: pointer;
+}
+#Education h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  color: #24a7c2;
+  font-family: "Great Vibes";
+  margin-top: 12rem;
+}
+.Education {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+.edu {
+  background-color: white;
+  color: #24a7c2;
+  height: 13rem;
+  width: 20rem;
+  font-family: "Roboto", cursive;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(211, 211, 231);
+}
+.iname{
+  display: none;
+}
+.edu span {
+  margin: 3px;
+}
+.fa-user-graduate,
+.fa-school,
+.fa-building-columns {
+  font-size: 3rem;
+  margin: 1rem;
+}
+.skill-set {
+  height: 50vh;
+}
+.skill-set h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  color: #24a7c2;
+  font-family: "Great Vibes";
+}
+.main_skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills_set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skill-set img {
+  width: 4rem;
+  height: 4rem;
+}
+.skills {
+  color: #24a7c2;
+  margin: 1rem 3rem;
+  width: 15rem;
+  height: 10rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgb(211, 211, 231);
+}
+.skills p{
+  text-align: center;
+}
+.fa-forward, .fa-backward{
+  cursor: pointer;
+}
+.none{
+  display: none;
+}
+/* form styling */
+
+.contact h1{
+  text-align: center;
+  font-family: "Great Vibes";
+  font-size: 3rem;
+  color: #24a7c2;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-size: 15px;
+  
+}
+
+.form input, .form textarea{
+  border: solid 2px #24a7c2;
+  border-radius: 5px;
+  color:#24a7c2;
+  width: 40rem;
+  height: 2rem;
+  margin: 1rem;
+  background-color: azure;
+}
+.form textarea{
+  height: 8rem;
+}
+.form textarea:focus, .form input{
+  outline: none;
+}
+#btn{
+  width: 8rem;
+}
+/* footer section */
+.footer{
+  color:#24a7c2;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0rem;
+}
+
+/* for media queries */
+@media only screen and (max-width: 500px) {
+  html{
+    scroll-behavior: smooth;
+  }
+  .contacts {
+    display: none;
+  }
+  .handles {
+    display: none;
+  }
+  .fa-bars {
+    display: inline;
+  }
+  .open {
+    overflow:hidden;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 32vh;
+    margin-left: 45%;
+    color: #9ed7e3;
+  }
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 92%;
+  }
+  /* main section*/
+  .container {
+    /* height: 100vh; */
+    height: auto;
+    margin-top: 10rem;
+    display: flex;
+    font-family: "Roboto";
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #24a7c2;
+  }
+  .main {
+    font-size: 25px;
+    margin: 10px;
+  }
+  .middle {
+    font-weight: bold;
+    font-size: 8px;
+    margin: 5px;
+  }
+  .container button {
+    font-size: 12px;
+    text-decoration: none;
+    width: 5rem;
+    height: 2rem;
+    padding: 5px;
+    font-family: "Roboto";
+    background-color: azure;
+    border: solid 2px rgb(160, 241, 241);
+    border-radius: 10px;
+    margin: 40px;
+  }
+  .container button:hover {
+    cursor: pointer;
+  }
+  /* for project section */
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .review-block {
+    /* color: #24a7c2; */
+    background-color: white;
+    width: 20em;
+    height: 20em;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgb(211, 211, 231);
+  }
+  .review-block p{
+    font-size: 8px;
+  }
+  .content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px azure;
+    margin: 20px;
+  }
+  .content {
+    font-family: "Roboto", serif;
+  }
+  .p1 {
+    display: block;
+  }
+  .p2 {
+    display: none;
+  }
+  .p3 {
+    display: none;
+  }
+  .p4 {
+    display: none;
+  }
+  .p5 {
+    display: none;
+  }
+  .name {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .role {
+    margin: 0px;
+    font-weight: lighter;
+    color: #9ed7e3;
+    font-size: 12px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons span {
+    user-select: none;
+    margin: 30px;
+  }
+  .buttons button {
+    text-align: center;
+    display: block;
+    background-color: azure;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 7px;
+  }
+  .buttons button:hover {
+    cursor: pointer;
+  }
+  .buttons span:hover {
+    cursor: pointer;
+  }
+  /* education */
+  #Education h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    color: #24a7c2;
+    font-family: "Great Vibes";
+    margin-top: 5rem;
+  }
+  .Education {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .edu {
+    margin: 5px;
+    background-color: white;
+    color: #24a7c2;
+    height: 10rem;
+    width: 40%;
+    font-family: "Roboto", cursive;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(211, 211, 231);
+  }
+  .Iname{
+    display: none;
+  }
+  .edu span {
+    margin: 3px;
+  }
+  .fa-user-graduate,
+  .fa-school,
+  .fa-building-columns {
+    font-size: 3rem;
+    margin: 1rem;
+  }
+  /* skiil area */
+  .skill-set {
+    height: 50vh;
+    font-size: 12px;
+  }
+  .skill-set h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    color: #24a7c2;
+    font-family: "Great Vibes";
+  }
+  .main_skill {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .skills_set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .skill-set img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .skills {
+    color: #24a7c2;
+    margin: 1rem 3rem;
+    width: 15rem;
+    height: 10rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(211, 211, 231);
+  }
+  .skills p{
+    text-align: center;
+  }
+  .fa-forward, .fa-backward{
+    cursor: pointer;
+  }
+  .none{
+    display: none;
+  }
+  /* contsct-form */
+  .contact h1{
+    text-align: center;
+    font-family: "Great Vibes";
+    font-size: 3rem;
+    color: #24a7c2;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 10px;
+    
+  }
+  
+  .form input, .form textarea{
+    border: solid 2px #24a7c2;
+    border-radius: 5px;
+    color:#24a7c2;
+    width: 350px;
+    height: 2rem;
+    margin: 1rem;
+    background-color: azure;
+  }
+  .form textarea{
+    height: 8rem;
+  }
+  .form textarea:focus, .form input{
+    outline: none;
+  }
+  #btn{
+    width: 8rem;
+  }
+  /* footer section */
+  .footer{
+    color:#24a7c2;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+  }
+}
+

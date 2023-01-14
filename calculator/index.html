@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <style>
+      body {
+        background-color: darkgrey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+      }
+      .nav{
+        font-family: cursive;
+        margin-bottom: 80px;
+      }
+      .calculator {
+        display: flex;
+        flex-direction: column;
+        /* width: 400px;
+        height: 600px; */
+        justify-content: center;
+        align-items: center;
+        border: solid black 2px;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .answerpanel {
+        width: 300px;
+        background-color: aliceblue;
+        height: 40px;
+        border: solid black 2px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .answerpanel p{
+        margin: 9px;
+      }
+      .panel {
+        margin-top: 26px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 11px;
+        grid-column-gap: 95px;
+        text-align: center;
+      }
+
+      .numbersymbol {
+        background-color: aliceblue;
+        width: 30px;
+        height: 30px;
+        border: solid black 2px;
+        border-radius: 5px;
+        padding: 2px;
+      }
+      .numbersymbol:hover{
+        font-size: larger;
+        background-color: aqua;
+        cursor: pointer;
+      }
+      .selected{
+        background-color: rgb(218, 170, 140);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+        <h1>Calculator</h1>
+    </div>
+    <div class="calculator">
+      <div class="answerpanel">
+        <p></p>
+      </div>
+      <div class="panel">
+        <div class="numbersymbol" id = "zero">0</div>
+        <div class="numbersymbol" id = "one">1</div>
+        <div class="numbersymbol" id = "two">2</div>
+        <div class="numbersymbol" id = "three">3</div>
+        <div class="numbersymbol" id = "four">4</div>
+        <div class="numbersymbol" id = "five">5</div>
+        <div class="numbersymbol" id = "six">6</div>
+        <div class="numbersymbol" id = "seven">7</div>
+        <div class="numbersymbol" id = "eight">8</div>
+        <div class="numbersymbol" id = "nine">9</div>
+        <div class="numbersymbol" id = "add">+</div>
+        <div class="numbersymbol" id = "sub">-</div>
+        <div class="numbersymbol" id = "mul">*</div>
+        <div class="numbersymbol" id = "div">/</div>
+        <div class="numbersymbol" id = "equal">=</div>
+        <div class="numbersymbol" id="ac">AC</div>
+        <div class="numbersymbol" id="back">&#8592</div>
+        <div class="numbersymbol" id="per">%</div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>

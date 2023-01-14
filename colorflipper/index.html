@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+        body{
+            font-family: cursive;
+        }
+        .nav{
+            background-color: aquamarine;
+            padding: 1px;
+            border-radius: 40px;
+        }
+        .navbar{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navbar li{
+            padding: 5px;
+        }
+        .navbar li:hover{
+            cursor: pointer;
+            background-color: rgb(84, 233, 183);
+            border-radius: 20px;
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 70vh;
+        }
+        .heading{
+            border: solid black 2px;
+            width: 500px;
+            text-align: center;
+            background-color: aliceblue;
+            border-radius: 20px;
+            font-weight: lighter;
+            font-size: 25px;
+        }
+        .container button{
+            font-family: cursive;
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="navbar">
+            <li>Color Flipper</li>
+            <li class="simple">Simple</li>
+            <li class="hex">Hex</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1 class="heading">Background Color : <span class="colorcode"> </span></h1>
+        <button>Click here</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

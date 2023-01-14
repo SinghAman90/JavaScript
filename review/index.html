@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        user-select: none;
+        background-color: azure;
+      }
+      h1 {
+        font-family: "Roboto";
+        color: black;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .review-block {
+        background-color: white;
+        width: 30em;
+        height: 25em;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 2px 2px 5px rgb(211, 211, 231);
+      }
+      .content img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        box-shadow: 1px 1px azure;
+        margin: 20px;
+      }
+      .content {
+        font-family: "Roboto", serif;
+      }
+      .p1 {
+        display: block;
+      }
+      .p2 {
+        display: none;
+      }
+      .p3 {
+        display: none;
+      }
+      .p4 {
+        display: none;
+      }
+      .p5 {
+        display: none;
+      }
+      .name {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0px;
+      }
+      .role {
+        margin: 0px;
+        font-weight: lighter;
+        color: #9ed7e3;
+        font-size: 20px;
+      }
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .buttons span {
+        user-select: none;
+        margin: 30px;
+      }
+      button {
+        text-align: center;
+        display: block;
+        background-color: azure;
+        border-radius: 5px;
+        border: 2px solid white;
+        padding: 10px;
+        margin: 7px;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+      span:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Our Testimonials</h1>
+      <div class="review-block">
+        <div class="content p1">
+          <img src="p1.jpg" alt="person1" />
+          <p class="name">Tom Holland</p>
+          <p class="role">Web developer</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            dolorum dolor sapiente ab, soluta molestias nam vitae necessitatibus
+            repellat voluptatibus. Rem praesentium inventore voluptatibus. At
+            laboriosam facilis quas tenetur eos!
+          </p>
+        </div>
+        <div class="content p2">
+          <img src="p2.jpg" alt="person1" />
+          <p class="name">Peter Griffin</p>
+          <p class="role">React developer</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            dolorum dolor sapiente ab, soluta molestias nam vitae necessitatibus
+            repellat voluptatibus. Rem praesentium inventore voluptatibus. At
+            laboriosam facilis quas tenetur eos!
+          </p>
+        </div>
+        <div class="content p3">
+          <img src="p3.jpg" alt="person1" />
+          <p class="name">Chris Griffin</p>
+          <p class="role">Android developer</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            dolorum dolor sapiente ab, soluta molestias nam vitae necessitatibus
+            repellat voluptatibus. Rem praesentium inventore voluptatibus. At
+            laboriosam facilis quas tenetur eos!
+          </p>
+        </div>
+        <div class="content p4">
+          <img src="p4.jpg" alt="person1" />
+          <p class="name">Meg Griffin</p>
+          <p class="role">Flutter developer</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            dolorum dolor sapiente ab, soluta molestias nam vitae necessitatibus
+            repellat voluptatibus. Rem praesentium inventore voluptatibus. At
+            laboriosam facilis quas tenetur eos!
+          </p>
+        </div>
+        <div class="content p5">
+          <img src="p5.jpg" alt="person1" />
+          <p class="name">Brian Griffin</p>
+          <p class="role">Manager</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            dolorum dolor sapiente ab, soluta molestias nam vitae necessitatibus
+            repellat voluptatibus. Rem praesentium inventore voluptatibus. At
+            laboriosam facilis quas tenetur eos!
+          </p>
+        </div>
+        <div class="buttons">
+          <div>
+            <span class="b-1">&lt;</span>
+            <span class="b-2">&gt;</span>
+          </div>
+          <button>Surprise Me</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="review.js"></script>
+</html>

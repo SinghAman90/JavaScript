@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Menu</title>
+    <style>
+      body {
+        background-color: rgb(249, 252, 252);
+        font-family: "Roboto", cursive;
+        user-select:none;
+      }
+      .container {
+        padding: 5rem;
+      }
+      .heading {
+        font-size: 3.5rem;
+        color: rgb(219, 99, 161);
+        font-family: "Great vibes";
+        text-align: center;
+        text-shadow: 1px 1px orange;
+        margin: auto;
+      }
+      .buttons {
+        padding: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+      }
+      .buttons button {
+        font-family: "Roboto", cursive;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(249, 252, 252);
+        border: 1px 1px solid red;
+        border-radius: 5px;
+        box-shadow: 1px 1px orange;
+        margin: 1rem;
+        padding: 0.5rem;
+      }
+      .buttons button:hover{
+        cursor: pointer;
+      }
+      .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 2rem;
+        grid-column-gap: 2rem;
+      }
+      .items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2px;
+        padding: 1rem;
+        justify-content: center;
+        border: solid 2px orange;
+        border-radius: 5px;
+      }
+      .items img {
+        width: 12rem;
+        height: 8rem;
+        border: solid 2px orange;
+        border-radius: 4px;
+        box-shadow: 1px 1px red;
+      }
+      .text {
+        height: 8rem;
+        flex-direction: column;
+      }
+      .text p {
+        color: gray;
+        top: 0;
+        margin-left: 10px;
+      }
+      span{
+        color: orange;
+      }
+      .name{
+        margin: 0;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+      }
+      hr{
+        color: grey;
+      }
+      .none{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">Our Menu</div>
+      <div class="buttons">
+        <button class="b-1">All</button>
+        <button class="b-2">Breakfast</button>
+        <button class="b-3">Lunch</button>
+        <button class="b-4">Shakes</button>
+        <button class="b-5">Dinner</button>
+      </div>
+      <div class="main">
+        <div class="items Breakfast">
+          <img src="pancakes.jpg" alt="" />
+          <div class="text">
+            <p class="name">
+              ButterMIlk Pancakes<span class="price"> ₹40 </span>
+            </p>
+            <hr>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A, soluta
+              officiis reiciendis corporis ipsum aperiam.
+            </p>
+          </div>
+        </div>
+
+        <div class="items Breakfast">
+          <img src="paratha.jpg" alt="" />
+          <div class="text">
+            <p class="name">Aloo Paratha<span class="price"> ₹25 </span></p>
+            <hr>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              tempora doloremque sed exercitationem? Nihil, dolor.
+            </p>
+          </div>
+        </div>
+
+        <div class="items Breakfast">
+          <img src="dosa.jpg" alt="" />
+          <div class="text">
+            <p class="name">Masala Dosa <span class="price"> ₹30 </span></p>
+            <hr>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              fugiat modi voluptatum molestias. Fugit, provident.
+            </p>
+          </div>
+        </div>
+
+        <div class="items Lunch">
+          <img src="pulao.jpg" alt="" />
+          <div class="text">
+            <p class="name">Pulao<span class="price">₹70 </span></p>
+            <hr>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              quis explicabo, in ullam at modi?
+            </p>
+          </div>
+        </div>
+
+        <div class="items Lunch">
+          <img src="biryani.jpg" alt="" />
+          <div class="text">
+            <p class="name">Chicken Biryani<span class="price">₹100</span></p>
+            <hr>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur maxime numquam fugit placeat unde ratione?
+            </p>
+          </div>
+        </div>
+
+        <div class="items Shake">
+          <img src="bananashake.jpg" alt="" />
+          <div class="text">
+            <p class="name">Banashake<span class="price">₹50</span></p>
+            <hr>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+              quidem placeat atque consequuntur, aliquid deleniti!
+            </p>
+          </div>
+        </div>
+
+        <div class="items Shake">
+          <img src="milkshake.jpg" alt="" />
+          <div class="text">
+            <p class="name">MilkShake<span class="price">₹50</span></p>
+            <hr>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              quis neque commodi officiis pariatur mollitia.
+            </p>
+          </div>
+        </div>
+
+        <div class="items Lunch">
+          <img src="chapati.jpg" alt="" />
+          <div class="text">
+            <p class="name">Chapati Sabji<span class="price">₹50</span></p>
+            <hr>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+              labore nostrum incidunt animi neque iusto!
+            </p>
+          </div>
+        </div>
+
+        <div class="items Dinner">
+          <img src="thali.jpg" alt="" />
+          <div class="text">
+            <p class="name">Thali<span class="price">₹70</span></p>
+            <hr>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              distinctio repellendus blanditiis porro expedita atque!
+            </p>
+          </div>
+        </div>
+
+        <div class="items Shake">
+          <img src="juice.jpg" alt="" />
+          <div class="text">
+            <p class="name">Juice<span class="price">₹49</span></p>
+            <hr>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              earum cumque, iusto praesentium consequuntur voluptates.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="Menu.js
+    "></script>
+  </body>
+</html>
